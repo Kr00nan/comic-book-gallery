@@ -10,6 +10,8 @@ namespace ComicBookGallery.Controllers
     {
         public ActionResult Detail()
         {
+            var comicBook = new ComicBookGallery();
+
             ViewBag.SeriesTitle = "The Amazing Spider-Man";
             ViewBag.IssueNumber = 700;
             ViewBag.Description = "<p>Final issue! Witness the final hours of Doctor Octopus' life and his one, last, great act of revenge! Even if Spider-Man survives...<strong>Will Peter Parker?</strong></p>";
